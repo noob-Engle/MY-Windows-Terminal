@@ -1,0 +1,101 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "copyFormatting": "all",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "colorScheme": "Naughty One",
+                "commandline": "powershell.exe",
+                "cursorColor": "#FFFFFF",
+                "fontFace": "JetBrains Mono",
+                "fontSize": 10,
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "useAcrylic": false
+            },
+            {
+                "colorScheme": "Naughty One",
+                "commandline": "cmd.exe",
+                "cursorColor": "#FFFFFF",
+                "fontFace": "JetBrains Mono",
+                "fontSize": 10,
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt",
+                "useAcrylic": false
+            },
+            {
+                "colorScheme": "Naughty One",
+                "cursorColor": "#FFFFFF",
+                "fontFace": "JetBrains Mono",
+                "fontSize": 10,
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure",
+                "useAcrylic": false
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#11100F",
+            "black": "#282A2E",
+            "blue": "#4E7BDD",
+            "brightBlack": "#373B41",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#8ABEB7",
+            "brightGreen": "#ADDD67",
+            "brightPurple": "#B17FC1",
+            "brightRed": "#C0484F",
+            "brightWhite": "#EEFFFF",
+            "brightYellow": "#DA9C4A",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#57968E",
+            "foreground": "#DCDFE4",
+            "green": "#A7EA45",
+            "name": "Naughty One",
+            "purple": "#C17CEE",
+            "red": "#EB232D",
+            "selectionBackground": "#FFFFFF",
+            "white": "#8B8B8B",
+            "yellow": "#FFCC00"
+        }
+
+    ]
+}
